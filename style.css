@@ -1,0 +1,87 @@
+body {
+  background: indigo;
+  background-image: linear-gradient(to right, #3B00C4, #670096);
+  font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.topnav {
+  left: 10px;
+  overflow: hidden;
+  background-color: #6A52DE;
+  border-radius: 9px 9px 9px 9px;
+  position: fixed;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.topRightNav {
+  right: 10px;
+  overflow: hidden;
+  background-color: #6A52DE;
+  border-radius: 9px 9px 9px 9px;
+  position: fixed;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.topRightNav a.text {
+  float: right;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.topRightNav a.text:hover {
+  background-color: #363682;
+  color: white;
+}
+
+.topRightNav a.active {
+  float: right;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #4949B3;
+}
+
+.topnav a.altappsTitle {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 12px 8px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 650;
+}
+
+.button {
+  background-color: #272D6A;
+  border-radius: 12px;
+  padding: 15px 15px 15px 15px;
+  color: #EB2189;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button-altstore {
+  background-color: #34838A;
+  border-radius: 12px;
+  padding: 15px 15px 15px 15px;
+  color: #FCFBF7;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
