@@ -60,7 +60,7 @@ body {
 
 .button {
   background-color: #272D6A;
-  border-radius: 12px;
+  border-radius: 15px;
   padding: 15px 15px 15px 15px;
   color: #EB2189;
   font-size: 20px;
@@ -72,7 +72,7 @@ body {
 
 .button-altstore {
   background-color: #34838A;
-  border-radius: 12px;
+  border-radius: 15px;
   padding: 15px 15px 15px 15px;
   color: #FCFBF7;
   font-size: 20px;
