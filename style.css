@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   border-radius: 15px;
   padding: 15px 15px 15px 15px;
   color: #EB2189;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500;
   text-decoration: none;
   text-align: center;
@@ -78,11 +78,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .button:hover {
-  background-color: #EB2189;
+  background-color: #2F378B;
   border-radius: 15px;
   padding: 15px 15px 15px 15px;
-  color: #272D6A;
-  font-size: 20px;
+  color: #EB2189;
+  font-size: 22px;
   font-weight: 500;
   text-decoration: none;
   text-align: center;
@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   border-radius: 15px;
   padding: 15px 15px 15px 15px;
   color: #FCFBF7;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500;
   text-decoration: none;
   text-align: center;
@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   border-radius: 15px;
   padding: 15px 15px 15px 15px;
   color: #34838A;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500;
   text-decoration: none;
   text-align: center;
@@ -114,5 +114,26 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 img:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.install-altstore {
+  position: absolute;
+  width: 280px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  background-color: #34838A;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.install-altstore:hover {
+  position: absolute;
+  width: 280px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  background-color: #009CAA;
+  color: #34838A;
+  border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
