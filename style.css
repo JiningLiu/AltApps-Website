@@ -1,4 +1,5 @@
 body {
+  overflow: hidden;
   height: 6000px;
   background: indigo;
   background-image: linear-gradient(to right, #3B00C4, #670096);
