@@ -8,6 +8,7 @@ $(document).scroll(function () {
       $('.scroll4').fadeOut();
       $('.scroll5').fadeOut();
       $('.scroll6').fadeOut();
+      $('.scroll7').fadeOut();
     } else {
       if (y > 3000) {
         if (y < 4000) {
@@ -17,30 +18,36 @@ $(document).scroll(function () {
           $('.scroll4').fadeIn();
           $('.scroll5').fadeOut();
           $('.scroll6').fadeOut();
+          $('.scroll7').fadeOut();
         } else {
-          if (y > 4000) {
-            if (y < 5000) {
-              $('.scroll1').fadeOut();
-              $('.scroll2').fadeOut();
-              $('.scroll3').fadeOut();
-              $('.scroll4').fadeOut();
-              $('.scroll5').fadeIn();
-              $('.scroll6').fadeOut();
-            } else {
+          if (y < 5000) {
+            $('.scroll1').fadeOut();
+            $('.scroll2').fadeOut();
+            $('.scroll3').fadeOut();
+            $('.scroll4').fadeOut();
+            $('.scroll5').fadeIn();
+            $('.scroll6').fadeOut();
+            $('.scroll7').fadeOut();
+          } else {
+            if (y < 6000) {
               $('.scroll1').fadeOut();
               $('.scroll2').fadeOut();
               $('.scroll3').fadeOut();
               $('.scroll4').fadeOut();
               $('.scroll5').fadeOut();
               $('.scroll6').fadeIn();
+              $('.scroll7').fadeOut();
+            } else {
+              if (y < 7000) {
+                $('.scroll1').fadeOut();
+                $('.scroll2').fadeOut();
+                $('.scroll3').fadeOut();
+                $('.scroll4').fadeOut();
+                $('.scroll5').fadeOut();
+                $('.scroll6').fadeOut();
+                $('.scroll7').fadeIn();
+              }
             }
-          } else {
-            $('.scroll1').fadeOut();
-            $('.scroll2').fadeOut();
-            $('.scroll3').fadeOut();
-            $('.scroll4').fadeIn();
-            $('.scroll5').fadeOut();
-            $('.scroll6').fadeOut();
           }
         }
       } else {
@@ -50,6 +57,7 @@ $(document).scroll(function () {
         $('.scroll4').fadeOut();
         $('.scroll5').fadeOut();
         $('.scroll6').fadeOut();
+        $('.scroll7').fadeOut();
       }
     }
   } else {
@@ -59,5 +67,6 @@ $(document).scroll(function () {
     $('.scroll4').fadeOut();
     $('.scroll5').fadeOut();
     $('.scroll6').fadeOut();
+    $('.scroll7').fadeOut();
   }
 });

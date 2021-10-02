@@ -1,5 +1,5 @@
 body {
-  height: 6000px;
+  height: 7500px;
   background: indigo;
   background-image: linear-gradient(to right, #3B00C4, #670096);
   font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
@@ -166,6 +166,16 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .scroll6 {
+  width: 90%;
+  margin: 0;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.scroll7 {
   width: 90%;
   margin: 0;
   position: fixed;
