@@ -123,9 +123,16 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .toTop {
   z-index: 9998;
   position: fixed;
-  bottom: 15px;
-  right: 15px;
+  bottom: 18px;
+  right: 18px;
   display: none;
+}
+
+.scrollDown {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 .scroll1 {

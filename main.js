@@ -10,6 +10,7 @@ $(document).scroll(function () {
       $('.scroll6').fadeOut();
       $('.scroll7').fadeOut();
       $('.toTop').fadeIn();
+      $('.scrollDown').fadeOut();
     } else {
       if (y > 3000) {
         if (y < 4000) {
@@ -21,6 +22,7 @@ $(document).scroll(function () {
           $('.scroll6').fadeOut();
           $('.scroll7').fadeOut();
           $('.toTop').fadeIn();
+          $('.scrollDown').fadeOut();
         } else {
           if (y < 5000) {
             $('.scroll1').fadeOut();
@@ -31,6 +33,7 @@ $(document).scroll(function () {
             $('.scroll6').fadeOut();
             $('.scroll7').fadeOut();
             $('.toTop').fadeIn();
+            $('.scrollDown').fadeOut();
           } else {
             if (y < 6000) {
               $('.scroll1').fadeOut();
@@ -41,6 +44,7 @@ $(document).scroll(function () {
               $('.scroll6').fadeIn();
               $('.scroll7').fadeOut();
               $('.toTop').fadeIn();
+              $('.scrollDown').fadeOut();
             } else {
               $('.scroll1').fadeOut();
               $('.scroll2').fadeOut();
@@ -50,6 +54,7 @@ $(document).scroll(function () {
               $('.scroll6').fadeOut();
               $('.scroll7').fadeIn();
               $('.toTop').fadeIn();
+              $('.scrollDown').fadeOut();
             }
           }
         }
@@ -62,6 +67,7 @@ $(document).scroll(function () {
         $('.scroll6').fadeOut();
         $('.scroll7').fadeOut();
         $('.toTop').fadeIn();
+        $('.scrollDown').fadeOut();
       }
     }
   } else {
@@ -73,5 +79,6 @@ $(document).scroll(function () {
     $('.scroll6').fadeOut();
     $('.scroll7').fadeOut();
     $('.toTop').fadeOut();
+    $('.scrollDown').fadeIn();
   }
 });
