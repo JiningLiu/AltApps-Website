@@ -135,7 +135,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   transform: translate(-50%, 0);
 }
 
-.scroll1 {
+.floating-show {
   width: 90%;
   margin: 0;
   position: fixed;
@@ -144,57 +144,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   transform: translate(-50%, -50%);
 }
 
-.scroll2 {
-  width: 90%;
-  margin: 0;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: none;
-}
-
-.scroll3 {
-  width: 90%;
-  margin: 0;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: none;
-}
-
-.scroll4 {
-  width: 90%;
-  margin: 0;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: none;
-}
-
-.scroll5 {
-  width: 90%;
-  margin: 0;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: none;
-}
-
-.scroll6 {
-  width: 90%;
-  margin: 0;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: none;
-}
-
-.scroll7 {
+.floating {
   width: 90%;
   margin: 0;
   position: fixed;
