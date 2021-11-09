@@ -1,0 +1,5 @@
+Old AltStore Button:
+<div class="install-altstore" onclick="installLatest()">
+  <a href="altstore://install?url=https://github.com/JiningLiu/AltApps/releases/download/v1.1.0/AltApps.ipa/"><img src="./assets/AltStore.png" style="float: left; width: 33px; border-radius: 22%; margin-top: 12px; margin-left: 12px; margin-bottom: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); "></a>
+  <p style="text-align: center;"><a style="padding-top: 12px; padding-bottom: 12px; color: white; text-align: center; text-decoration: none; font-size: 22px; font-weight: 500;" href="altstore://install?url=https://github.com/JiningLiu/AltApps/releases/download/v1.1.0/AltApps.ipa/">Install with AltStore</a></p>
+</div>

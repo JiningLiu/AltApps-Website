@@ -1,3 +1,23 @@
+function downloadBeta() {
+  window.location.href = 'https://github.com/JiningLiu/AltApps/archive/refs/heads/main.zip';
+}
+
+function installLatest() {
+  window.location.href = 'altstore://install?url=https://github.com/JiningLiu/AltApps/releases/download/v1.1.0/AltApps.ipa/';
+}
+
+function downloadLatest() {
+  window.location.href = 'https://github.com/JiningLiu/AltApps/releases/download/v1.1.0/AltApps.ipa/';
+}
+
+function install1_0_0() {
+  window.location.href = 'altstore://install?url=https://github.com/JiningLiu/AltApps/releases/download/v1.0.0-iOS14/AltApps.ipa';
+}
+
+function download1_0_0() {
+  window.location.href = 'https://github.com/JiningLiu/AltApps/releases/download/v1.0.0-iOS14/AltApps.ipa';
+}
+
 $(document).scroll(function () {
   var y = $(this).scrollTop();
   if (y > 1000) {

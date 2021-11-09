@@ -1,9 +1,11 @@
 body {
   scroll-behavior: smooth;
   transition: 0.5s;
-  background: indigo;
+  background: #5003AD;
   background-image: linear-gradient(to right, #3B00C4, #670096);
   font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  overflow-x: hidden;
+  display: block;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -99,8 +101,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .install-altstore {
+  border-style: none;
   position: absolute;
   width: 280px;
+  height: 60px;
   left: 50%;
   transform: translate(-50%, 0%);
   background-color: #34838A;
